@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Anna Propas</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="/css/uikit.min.css">
     <link rel="stylesheet" href="/css/uikit-rtl.min.css">
     <script src="/js/main.js"></script>
@@ -32,39 +33,84 @@
         <h2 class="uk-heading-bullet subtitle">Engineer, Educator, Hackathon Addict</h2>
     </div>
     <div class="section" id="skills">
-        <div class="uk-width-1-2@s">
+        <div class="uk-width-1-1@s">
             <div class="arrow-block" uk-scrollspy="cls:uk-animation-fade; repeat:true; delay: 100">
                 <a href="#top" class="uk-icon-button scroll-btn" uk-icon="chevron-up" uk-scroll></a>
                 <p>Top</p>
             </div>
-            <div class="uk-container skills-list">
-                <h1 class="uk-heading uk-text-center section-header">Skills</h1>
-                <div class="uk-grid-small uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid>
-                    <div>
-                        <p class="uk-align-left">Python</p>
-                        <progress class="uk-progress" value="8" max="10"></progress>
+            <h1 class="uk-heading uk-text-center section-header">Skills</h1>
+            <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3>Languages</h3>
+                        <div class="chip">
+                            <i class="devicon-python-plain"></i>Python
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-javascript-plain"></i>JavaScript
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-swift-plain"></i>Swift
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-ruby-plain"></i>Ruby
+                        </div>
                     </div>
                 </div>
-                <div class="uk-grid-small uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid>
-                    <div>
-                        <p class="uk-align-left">JavaScript</p>
-                        <progress class="uk-progress" value="7" max="10"></progress>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3>Frameworks</h3>
+                        <div class="chip">
+                            <i class="devicon-django-plain"></i>Django
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-express-original"></i>Express
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-rails-plain"></i>Rails
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-angularjs-plain"></i>Angular
+                        </div>
                     </div>
                 </div>
-                <div class="uk-grid-small uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid>
-                    <div>
-                        <p class="uk-align-left">Swift</p>
-                        <progress class="uk-progress" value="5" max="10"></progress>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3>Databases</h3>
+                        <div class="chip">
+                            <i class="devicon-postgresql-plain"></i>PostgreSQL
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-mysql-plain"></i>MySQL
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-mongodb-plain"></i>Mongo DB
+                        </div>                            
                     </div>
                 </div>
-                <div class="uk-grid-small uk-child-width-1-1@s uk-flex-center uk-text-center" uk-grid>
-                    <div>
-                        <p class="uk-align-left">Ruby</p>
-                        <progress class="uk-progress" value="5" max="10"></progress>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">
+                        <h3>Other Stuff</h3>
+                        <div class="chip">
+                            <i class="devicon-nodejs-plain"></i>NodeJS
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-git-plain"></i>Git
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-nginx-original"></i>Nginx
+                        </div>
+                        <div class="chip">
+                            <i class="devicon-amazonwebservices-original"></i>AWS
+                        </div>
+
+                        <div class="chip">
+                            <i class="devicon-github-plain"></i>GitHub
+                        </div>
+
                     </div>
                 </div>
             </div>
-    
             <div class="arrow-block" uk-scrollspy="cls:uk-animation-fade; repeat:true; delay: 200">
                 <p>About Me</p>
                 <a href="#about" class="uk-icon-button scroll-btn" uk-icon="chevron-down" uk-scroll></a>
@@ -96,7 +142,7 @@
             </div>
             <h1 class="uk-heading uk-text-center section-header">Portfolio</h1>
             <p>I've been building projects for as long as I've been coding. I believe it's the best way to learn practical skills. Maybe it's not the only way, but it sure has fast-tracked my own knowledge, and as a bonus, it's fun! Below you'll find a variety of projects. Most are either hackathon projects or work done for clients. I've limited my revision of the hackathon projects to accurately reflect the feature set built during that time limit. Modifications include some refactoring for clarity as well as bug fixes in existing features.</p>
-            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match projects" uk-grid>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match projects" uk-grid>
                 <a href="https://penguin.annapropas.com">
                     <div class="uk-card uk-card-default uk-card-hover" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 100">
                         <div class="uk-card-media-top">
@@ -116,6 +162,17 @@
                         <div class="uk-card-body">
                             <h3 class="uk-card-title">My Cohort</h3>
                             <p>For-fun project to help me create and track groups of students. I actually use this pretty often when I'm teaching a class.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://dangerzones.annapropas.com">
+                    <div class="uk-card uk-card-default uk-card-hover" uk-scrollspy="cls:uk-animation-fade; repeat: true; delay: 200">
+                        <div class="uk-card-media-top">
+                            <img src="imgs/dangerzones.png" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Danger Zones</h3>
+                            <p>A student project using the MEAN stack to describe areas potentially dangerous to travel.</p>
                         </div>
                     </div>
                 </a>

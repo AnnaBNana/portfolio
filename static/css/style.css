@@ -68,3 +68,22 @@ a:hover {
 .skills-list {
     margin-bottom: 50px;
 }
+.uk-badge i {
+    padding-right: 10px;
+}
+.uk-badge {
+    padding: 10px;
+}
+.chip {
+    background-color: #09508A;
+    color: white;
+    border-radius: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.chip i {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
